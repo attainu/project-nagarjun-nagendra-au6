@@ -1,0 +1,140 @@
+.error {
+    color: red;
+    float: left;
+}
+
+.user-image {
+    height: 150px;
+    object-fit: fill;
+}
+
+.request-user {
+    height: 150px;
+    object-fit: fill;
+    margin-left: 50px;
+}
+
+.search {
+    bottom: 0;
+    position: fixed;
+}
+
+.group-list {
+    overflow-y: scroll;
+    height: 70vh;
+    max-width: 250px;
+}
+
+.friend-list {
+    overflow-y: scroll;
+    height: 70vh;
+    max-width: 250px;
+}
+
+.loader {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.chat-box {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    height: 75vh;
+}
+
+.messages {
+    flex: 1 0 0px;
+    overflow-y: scroll;
+    flex-direction: column;
+}
+
+.message {
+    display: flex;
+    align-items: center;
+}
+
+.message-photo {
+    width: 32px !important;
+    height: 32px !important;
+}
+
+.message-name {
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+.message-content {
+    padding-left: 35px;
+}
+
+.message-form {
+    flex: 0 0 auto;
+}
+
+.message-file {
+    width: 150px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.title {
+    flex-grow: 1;
+}
+
+.input {
+    display: none;
+}
+
+.unread {
+    color: red;
+    font-weight: bold;
+}
+
+.emoji-class {
+    position: fixed;
+    width: 200;
+    top: 60%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    border: 1px solid;
+    padding: 16px;
+    background-color: #ccc;
+}
+
+.send-link {
+    color: darkblue;
+    font-size: medium;
+}
+
+.friend {
+    max-width: 250px;
+    margin: 15px;
+}
+
+.time {
+    color: white;
+}
+
+.register-paper {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background: #fff;
+    box-shadow: 0px 3px 3px -2px rgba(0,0,0,0.2), 0px 3px 4px 0px rgba(0,0,0,0.14), 0px 1px 8px 0px rgba(0,0,0,0.12);
+}
+.register-form{
+    width: 100%;
+    margin-top: 3rem;
+}
+.register-submit{
+    margin: 3rem 0 2rem;
+}
+.register-input{
+    margin-bottom: 20px;
+}
